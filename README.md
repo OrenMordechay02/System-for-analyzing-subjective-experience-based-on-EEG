@@ -1,4 +1,4 @@
- 🧠 System for Analyzing Subjective Experience Based on EEG
+# 🧠 System for Analyzing Subjective Experience Based on EEG
 
 A MATLAB-based system designed to analyze and visualize subjective human experiences through EEG (Electroencephalography) data.  
 The project provides tools for preprocessing, feature extraction, dataset generation, and visualization of EEG patterns related to cognitive and emotional responses.
@@ -20,23 +20,22 @@ It enables researchers to:
 ## ⚙️ Project Structure
 
 
-
+```
 System-for-analyzing-subjective-experience-based-on-EEG/
 ├── main.m                       # Entry point script
-├── EEG_Profile.m                # EEG profile processing script
+├── EEG_Profile.m                # EEG profile processing
 ├── EEG_Profile_Creator.mlapp    # GUI for creating EEG profiles
 ├── EEG_Result_Viewer.mlapp      # GUI for viewing results
-├── analyze_datasets.m           # Main analysis module
+├── analyze_datasets.m           # Dataset analysis module
 ├── extract_features.m           # EEG feature extraction
-├── Remove_noisy.m               # Removes noisy signals/channels
+├── Remove_noisy.m               # Noise removal
 ├── findNoisyChannels.m          # Detects noisy EEG channels
-├── load_files.m                 # Handles loading of EEG datasets
+├── load_files.m                 # Loads EEG datasets
 ├── plot_result.m                # Visualization utilities
-├── split_EEG.m                  # Splits EEG data into segments
-├── generate_dataset.m           # Creates clean, structured EEG dataset
-├── metadata.txt                 # Contains metadata and configuration info
-└── .git/                        # Git repository configuration
-
+├── generate_dataset.m           # Builds structured EEG dataset
+├── metadata.txt                 # Configuration and metadata
+└── ...
+```
 
 
 
